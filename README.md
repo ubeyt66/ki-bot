@@ -1,4 +1,4 @@
-# ✨🌌 ki-bot: Evrensel Piksel Ressamı (oyun.kiracbilisim.net ve Ötesi!) 🌌✨
+# ✨🌌 ki-bot: Evrensel Piksel Ressamı 🌌✨
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" alt="Python Version">
@@ -9,84 +9,60 @@
 
 ---
 
-## 🇹🇷 Türkçe Tanıtım - Tuval Sizin, Fırça ki-bot'un!
-
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHp1eDF4YW00eDR1anBldjF2aW1yZW11b3hnc2FzMWMydmRreW11eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l4EpfhC7x48b2x4S4/giphy.gif" alt="ki-bot in action - terminal animation"> <br>
-  <em>🎨 ki-bot ile dijital tuvali boyamanın büyüsü!</em>
-</p>
+## 🇹🇷 Türkçe Tanıtım
 
 ### 🚀 Proje Hakkında: Piksel Savaşının Yeni Boyutu
-**ki-bot**, `oyun.kiracbilisim.net` gibi 100x100 piksellik dijital tuvali olan platformlarda otomasyon sağlamak için tasarlanmış, akıllı bir piksel botudur. Yalnızca bu siteyle sınırlı değil; benzer API ve grid yapısına sahip **diğer web tabanlı piksel tuval projelerinde de küçük ayarlamalarla rahatlıkla denenebilir!** Kendi dijital şaheserinizi yaratın veya piksel savaşlarına damganızı vurun.
+**ki-bot**, `oyun.kiracbilisim.net` gibi 100x100 piksellik dijital tuvali olan platformlarda otomasyon sağlamak için tasarlanmış, akıllı bir piksel botudur. 
+
+> **ÖNEMLİ:** Bu bot sadece tek bir siteyle sınırlı değildir! Benzer API ve ızgara (grid) yapısına sahip **diğer web tabanlı piksel projelerinde de (r/place klonları vb.) küçük kod değişiklikleriyle denenebilir.**
 
 ### ✨ Göz Kamaştıran Özellikler
-* **Çoklu Görev Sihirbazı:** 5 eşzamanlı kanal üzerinden ışık hızında boyama.
-* **Evrensel Renk Tercümanı:** Görsellerdeki her rengi `#RRGGBB` (HEX) formatına kusursuzca çevirir.
-* **Esnek Boyutlandırma:** Her türlü resmi, hedef tuvalinize (örn. 100x100) otomatik optimize eder.
-* **Fantom Bağlantı:** `requests.Session()` ile sunucuyla hayalet gibi stabil ve hızlı iletişim.
+* **⚡ Multi-threading:** 5 eşzamanlı kanal üzerinden ışık hızında boyama.
+* **🌈 Akıllı Renk Dönüştürücü:** `image.png` dosyasındaki her rengi `#RRGGBB` formatına kusursuzca çevirir.
+* **📏 Esnek Boyutlandırma:** Resminiz ne olursa olsun, hedef tuvale göre (100x100) otomatik optimize eder.
+* **👻 Hayalet Bağlantı:** `requests.Session()` ile sunucu radarına yakalanmadan hızlı veri aktarımı.
 
-### 🛠️ Kurulum ve Kullanım: Hazırlık Başlasın!
-1.  Gerekli Python kütüphanelerini büyüleyici bir hızla yükleyin:
-    ```bash
-    pip install Pillow requests
-    ```
-2.  Büyüyecek olan resminizi `output.png` adıyla proje klasörünüze bırakın.
-3.  ki-bot'u serbest bırakın ve piksel resitalini başlatın:
-    ```bash
-    python bot.py
-    ```
-    
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGZja213ZzI5aWh0eW12OG1xMTFjbmY4MnNkdTR0eHRhOHkyMDU1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ornjQM7z6mHwXG9jQ/giphy.gif" alt="Pixel Art Demo"> <br>
-  <em>🚀 ki-bot ile her pikselde yeni bir dünya!</em>
-</p>
+### 🛠️ Kurulum ve Kullanım
+1. Kütüphaneleri yükle: `pip install Pillow requests`
+2. Boyamak istediğin resmi **`image.png`** adıyla klasöre at.
+3. Botu ateşle: `python bot.py`
 
 ---
 
-## 🇺🇸 English Description - Unleash Your Inner Pixel Artist!
-
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGp1eDF4YW00eDR1anBldjF2aW1yZW11b3hnc2FzMWMydmRreW11eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l4EpfhC7x48b2x4S4/giphy.gif" alt="ki-bot in action - terminal animation"> <br>
-  <em>🎨 Witness the magic of pixel drawing with ki-bot!</em>
-</p>
+## 🇺🇸 English Description
 
 ### 🚀 About the Project: The Next Dimension of Pixel Warfare
-**ki-bot** is an intelligent pixel bot designed to automate drawing on 100x100 pixel digital canvases, such as `oyun.kiracbilisim.net`. It's not limited to just this one site; with minor adjustments, it can be **readily adapted for other web-based pixel canvas projects with similar API and grid structures!** Create your own digital masterpiece or dominate pixel battles.
+**ki-bot** is an intelligent automation tool designed for 100x100 pixel digital canvases like `oyun.kiracbilisim.net`. 
+
+> **NOTE:** This bot is highly versatile! It can be **readily adapted for other web-based pixel canvas projects** (like r/place clones) with similar API structures.
 
 ### ✨ Dazzling Features
-* **Multitasking Maestro:** Blazing-fast drawing using 5 concurrent threads.
-* **Universal Color Translator:** Flawlessly converts image pixels to `#RRGGBB` (HEX) format.
-* **Flexible Resizing:** Automatically optimizes any image to the target canvas size (e.g., 100x100).
-* **Phantom Connection:** Establishes stable and swift communication with servers using `requests.Session()`.
+* **⚡ Multitasking Maestro:** Blazing-fast drawing using 5 concurrent threads.
+* **🌈 Universal Color Translator:** Flawlessly converts pixels from `image.png` to Hex format.
+* **📏 Auto-Resize:** Optimizes any image to the required 100x100 grid size automatically.
+* **👻 Phantom Connection:** High-speed communication using stable `requests.Session()`.
 
-### 🛠️ Installation & Usage: Get Ready for Action!
-1.  Install the necessary Python libraries with dazzling speed:
-    ```bash
-    pip install Pillow requests
-    ```
-2.  Place your image, destined for greatness, as `output.png` in the project folder.
-3.  Unleash ki-bot and start the pixel symphony:
-    ```bash
-    python bot.py
-    ```
-
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGZja213ZzI5aWh0eW12OG1xMTFjbmY4MnNkdTR0eHRhOHkyMDU1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ornjQM7z6mHwXG9jQ/giphy.gif" alt="Pixel Art Demo"> <br>
-  <em>🚀 A new world in every pixel with ki-bot!</em>
-</p>
+### 🛠️ Installation & Usage
+1. Install requirements: `pip install Pillow requests`
+2. Save your image as **`image.png`** in the project folder.
+3. Run the bot: `python bot.py`
 
 ---
 
-## ⚙️ Technical Details / Teknik Detaylar
+## ⚙️ Teknik Detaylar / Technical Details
 
 | Feature / Özellik | Value / Değer |
 | :---------------- | :------------ |
 | **Bot Name** | ki-bot        |
+| **Target File** | image.png     |
 | **Max Threads** | 5             |
-| **Grid Size** | 100x100       |
-| **Format** | `#{:02x}{:02x}{:02x}` (Hex) |
+| **Format** | `#{:02x}{:02x}{:02x}` |
 
 ---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=auto&height=200&section=header&text=ki-bot&fontSize=90" />
+</p>
 
 <p align="center">
   Made with ❤️ by <b>Ubeyt & Tilbe</b>

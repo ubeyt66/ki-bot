@@ -23,7 +23,7 @@
 * **👻 Hayalet Bağlantı:** `requests.Session()` ile sunucu radarına yakalanmadan hızlı veri aktarımı.
 
 ### 🛠️ Kurulum ve Kullanım
-1. Kütüphaneleri yükle: `pip install Pillow requests`
+1. Kütüphaneleri yükle: `pip install Pillow requests colorama`
 2. Boyamak istediğin resmi **`image.png`** adıyla klasöre at.
 3. Botu ateşle: `python bot.py`
 
@@ -43,7 +43,7 @@
 * **👻 Phantom Connection:** High-speed communication using stable `requests.Session()`.
 
 ### 🛠️ Installation & Usage
-1. Install requirements: `pip install Pillow requests`
+1. Install requirements: `pip install Pillow requests colorama`
 2. Save your image as **`image.png`** in the project folder.
 3. Run the bot: `python bot.py`
 
